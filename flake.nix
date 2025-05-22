@@ -17,6 +17,7 @@
         pkgs.hugo
         pkgs.just
         pkgs.nodejs
+        pkgs.nodePackages.npm
         pkgs.tailwindcss
       ];
 
