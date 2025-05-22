@@ -4,8 +4,7 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "build": "hugo --minify",
-    "dev": "hugo server -D",
-    "check-diff": "bash scripts/check-diff.sh"
+    "dev": "hugo server -D"
   },
   "devDependencies": {
     "editorconfig-checker": "^6.0.1",
