@@ -12,37 +12,47 @@
 
 
 [[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 10
+name = "About"
+pageRef = "about"
+weight = 10
 
 [[main]]
-  name = "People"
-  pageRef = "people"
-  weight = 10
+name = "People"
+pageRef = "people"
+weight = 10
 
 [[main]]
-  name = "Projects"
-  pageRef = "projects"
-  weight = 20
+name = "Projects"
+pageRef = "projects"
+weight = 20
 
 [[main]]
-  name = "The Tanglenomicon"
-  parent = "Projects"
-  pageRef = "projects/tanglenomicon"
+name = "The Tanglenomicon"
+parent = "Projects"
+pageRef = "projects/tanglenomicon"
 
 [[main]]
-  name = "MappeR"
-  parent = "Projects"
-  pageRef = "projects/mapper"
+name = "MappeR"
+parent = "Projects"
+pageRef = "projects/mapper"
 
 [[main]]
-  name = "Zen Mapper"
-  parent = "Projects"
-  pageRef = "projects/zen-mapper"
+name = "Zen Mapper"
+parent = "Projects"
+pageRef = "projects/zen-mapper"
 
 [[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/Uiowa-applied-topology"
-  weight = 400
+name = "Events"
+pageRef = "events"
+weight = 20
+
+[[main]]
+name = "TDV Workshop 2022"
+parent = "Events"
+pageRef = "events/workshop_1"
+
+[[main]]
+identifier = "github"
+pre = "github"
+url = "https://github.com/Uiowa-applied-topology"
+weight = 400
