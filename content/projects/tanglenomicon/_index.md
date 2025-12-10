@@ -1,10 +1,12 @@
 +++
 title = "The Tanglenomicon"
-authors = ["jstarr"]
+authors = ["jstarr","paria_karimi","nicholas_connolly","zachary_bryhtan",]
 layout = "single"
 +++
-
 {{< mathjax >}}
+
+_The Tanglenomicon_ name is due to Connolly{{< cite "connollyClassificationTabulation2string2021" >}}
+
 
 # Tangle Tabulation in Our Research Group
 
