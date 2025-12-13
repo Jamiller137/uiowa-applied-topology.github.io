@@ -1,9 +1,9 @@
-name: Joe Starr
+name: Dr. Joe Starr
 image: 'https://github.com/Joecstarr/joe-starr/blob/main/assets/avatar.jpg?raw=true'
 fullbio: |-
-  I am a PhD candidate in Mathematics at the University of Iowa, specializing in
-  knot theory and tangle tabulation. My research focuses on understanding and
-  classifying tangles, which contributes to the broader field of knot theory.
+  I specialize in computational knot theory, specifically tabulation of knot-like objects. My recent 
+  research focuses on understanding and classifying tangles, which contributes to the broader 
+  field of knot theory.
 
   In addition to my academic pursuits, I have substantial industry experience in
   software engineering and project management. This experience has equipped me
@@ -13,8 +13,7 @@ fullbio: |-
   Beyond my mathematical research, I am passionate about education, particularly
   in training undergraduate researchers.
 bio: >-
-  I am a PhD candidate in Mathematics at the University of Iowa, specializing in
-  knot theory and tangle tabulation.
+  I specialize in computational knot theory. I'm also a professional embedded software engineer.  
 social:
   - link: 'https://joe-starr.com'
   - linkedin: 'https://www.linkedin.com/in/joseph-c-starr/'
