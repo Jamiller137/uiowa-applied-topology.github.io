@@ -23,12 +23,17 @@ title = "People"
 
 ### Current Students
 
-{{< authorList >}} {{< authorCard "jstarr" >}} {{< authorCard "paria_karimi" >}}
+{{< authorList >}}
+{{< authorCard "paria_karimi" >}}
 {{< /authorList >}}
 
 ### Past Students
 
-{{< authorList >}} {{< authorCard "zachary_bryhtan" >}} {{< /authorList >}}
+{{< authorList >}}
+{{< authorCard "jstarr" >}}
+{{< authorCard "zachary_bryhtan" >}}
+{{< authorCard "nicholas_connolly" >}}
+{{< /authorList >}}
 
 ### Collaborators
 
