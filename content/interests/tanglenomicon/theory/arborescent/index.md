@@ -24,6 +24,13 @@ This work contributes to the field by offering a robust framework for the
 enumeration and classification of arborescent tangles, supported by both
 theoretical insights and practical computational tools.
 
+## Arborescent Tangles up to 16 Crossings on GitHub
+
+[![DOI - 10.5281/zenodo.17612688](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17612688-2ea44f?logo=doi)](https://doi.org/10.5281/zenodo.17612688)
+{{< github repo="Uiowa-Applied-Topology/tanglenomicon_arborescent_tangles" showThumbnail=true >}}
+
+
 ## References
+
 
 {{< references >}}

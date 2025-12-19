@@ -22,24 +22,19 @@
   weight = 10
 
 [[main]]
-  name = "Projects"
-  pageRef = "projects"
+  name = "Research"
+  pageRef = "interests"
   weight = 20
 
 [[main]]
   name = "The Tanglenomicon"
-  parent = "Projects"
+  parent = "Research"
   pageRef = "projects/tanglenomicon"
 
 [[main]]
-  name = "MappeR"
-  parent = "Projects"
-  pageRef = "projects/mapper"
-
-[[main]]
-  name = "Zen Mapper"
-  parent = "Projects"
-  pageRef = "projects/zen-mapper"
+  name = "TDA"
+  parent = "Research"
+  pageRef = "interests/tda"
 
 [[main]]
   identifier = "github"
