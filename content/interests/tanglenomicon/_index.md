@@ -5,6 +5,12 @@ layout = "single"
 +++
 {{< mathjax >}}
 
+<style>
+.thumbnail{
+background-size:unset;
+    }
+</style>
+
 _The Tanglenomicon_ name is due to Connolly{{< cite "connollyClassificationTabulation2string2021" >}}
 
 
@@ -94,7 +100,8 @@ theory, facilitating the construction and analysis of complex knots
     caption="making a tangle by [Joe Starr](https://joe-starr.com/)"
     >}}
 
-{{< list title="Our Tangle Tabulation Projects" limit=100 where="Type" value="tangle_tabulation" >}}
+{{< list title="Our Theory" limit=100 where="Type" value="tangle_tabulation" >}}
+{{< list title="Our Tooling" limit=100 where="Type" value="tangle_tabulation_tools" >}}
 
 ## References
 
