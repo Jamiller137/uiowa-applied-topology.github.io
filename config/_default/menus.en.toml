@@ -27,6 +27,35 @@
   weight = 20
 
 [[main]]
+  name = "Events"
+  weight = 20
+
+[[main]]
+  name = "TDV 2025"
+  parent = "Events"
+  pageRef = "events/2025/tdv"
+  weight = 30
+
+[[main]]
+  name = "TDV 2022"
+  parent = "Events"
+  pageRef = "events/2022/tdv"
+  weight = 32
+
+[[main]]
+  name = "Travel Information"
+  parent = "Events"
+  pageRef = "events/travel_info"
+  weight = 20
+
+[[main]]
+  name = "Points of Interest"
+  parent = "Events"
+  pageRef = "events/poi_info"
+  weight = 20
+
+
+[[main]]
   name = "The Tanglenomicon"
   parent = "Research"
   pageRef = "projects/tanglenomicon"
