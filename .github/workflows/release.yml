@@ -3,7 +3,8 @@ name: Create release
 on:
     push:
         tags:
-            - "****.**.**"
+            # Temporal versioning with note: YYYY.MM.DD-note
+            - "[0-9][0-9][0-9][0-9].[0-9][0-9].[0-9][0-9]-*"
 permissions:
     pages: write
     id-token: write
