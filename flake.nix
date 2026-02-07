@@ -26,6 +26,7 @@
             pkgs.tailwindcss_4
             pkgs.prek
             pkgs.prettier
+            pkgs.tombi
           ];
 
           shellHook = ''
