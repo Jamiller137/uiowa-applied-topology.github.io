@@ -6,116 +6,110 @@
 # https://blowfish.page/docs/configuration/#theme-parameters
 
 colorScheme = "slate"
-defaultAppearance = "dark" # valid options: light or dark
+defaultAppearance = "dark"  # valid options: light or dark
 autoSwitchAppearance = false
-
 enableSearch = true
 enableCodeCopy = true
-
 replyByEmail = false
-
 mainSections = ["docs"]
 # robots = ""
-
 disableImageOptimization = true
 disableTextInHeader = false
 # backgroundImageWidth = 1200
-
 defaultBackgroundImage = "/img/pentacrest.jpg"
 defaultFeaturedImage = "/img/logo.svg"
-
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
 
 [header]
-  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+layout = "fixed"  # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
-  showMenu = false
-  showCopyright = true
-  showThemeAttribution = true
-  showAppearanceSwitcher = true
-  showScrollToTop = true
+showMenu = false
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/pentacrest.jpg" # used in: background, hero, and card
-  showRecent = false
-  showRecentItems = 6
-  showMoreLink = true
-  showMoreLinkDest = "docs"
-  cardView = true
-  cardViewScreenWidth = false
-  layoutBackgroundBlur = true # only used when layout equals background
+layout = "custom"  # valid options: page, profile, hero, card, background, custom
+homepageImage = "/img/pentacrest.jpg"  # used in: background, hero, and card
+showRecent = false
+showRecentItems = 6
+showMoreLink = true
+showMoreLinkDest = "docs"
+cardView = true
+cardViewScreenWidth = false
+layoutBackgroundBlur = true  # only used when layout equals background
 
 [article]
-  showDate = false
-  showViews = false
-  showLikes = false
-  showDateOnlyInArticle = false
-  showDateUpdated = false
-  showAuthor = false
-  # showAuthorBottom = false
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background
-  showBreadcrumbs = true
-  showDraftLabel = true
-  showEdit = false
-  editURL = ""
-  editAppendPath = true
-  seriesOpened = false
-  showHeadingAnchors = true
-  showPagination = false
-  invertPagination = false
-  showReadingTime = false
-  showTableOfContents = true
-  showRelatedContent = true
-  relatedContentLimit = 6
-  showTaxonomies = false
-  showAuthorsBadges = true
-  showWordCount = false
-  sharingLinks = []
-  showZenMode = false
+showDate = false
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = false
+# showAuthorBottom = false
+showHero = true
+heroStyle = "background"  # valid options: basic, big, background, thumbAndBackground
+layoutBackgroundBlur = true  # only used when heroStyle equals background
+showBreadcrumbs = true
+showDraftLabel = true
+showEdit = false
+editURL = ""
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = false
+invertPagination = false
+showReadingTime = false
+showTableOfContents = true
+showRelatedContent = true
+relatedContentLimit = 6
+showTaxonomies = false
+showAuthorsBadges = true
+showWordCount = false
+sharingLinks = []
+showZenMode = false
 
 [list]
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background
-  layoutBackgroundHeaderSpace = false
-  showBreadcrumbs = false
-  showSummary = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
-  showCards = true
-  orderByWeight = true
-  groupByYear = false
-  cardView = true
-  cardViewScreenWidth = false
-  constrainItemsWidth = false
+showHero = true
+heroStyle = "background"  # valid options: basic, big, background, thumbAndBackground
+layoutBackgroundBlur = true  # only used when heroStyle equals background
+layoutBackgroundHeaderSpace = false
+showBreadcrumbs = false
+showSummary = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+showCards = true
+orderByWeight = true
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
+constrainItemsWidth = false
 
 [sitemap]
-  excludedKinds = []
+excludedKinds = []
 
 [taxonomy]
-  showTermCount = true
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
-  cardView = false
+showTermCount = true
+showHero = true
+heroStyle = "background"  # valid options: basic, big, background, thumbAndBackground
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+cardView = false
 
 [term]
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
-  groupByYear = false
-  cardView = true
-  cardViewScreenWidth = false
+showHero = true
+heroStyle = "background"  # valid options: basic, big, background, thumbAndBackground
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false

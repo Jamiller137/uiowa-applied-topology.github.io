@@ -10,63 +10,61 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+[[main]]
+name = "About"
+pageRef = "about"
+weight = 10
 
 [[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 10
+name = "People"
+pageRef = "people"
+weight = 10
 
 [[main]]
-  name = "People"
-  pageRef = "people"
-  weight = 10
+name = "Research"
+pageRef = "interests"
+weight = 20
 
 [[main]]
-  name = "Research"
-  pageRef = "interests"
-  weight = 20
+name = "Events"
+weight = 20
 
 [[main]]
-  name = "Events"
-  weight = 20
+name = "TDV 2025"
+parent = "Events"
+pageRef = "events/2025/tdv"
+weight = 30
 
 [[main]]
-  name = "TDV 2025"
-  parent = "Events"
-  pageRef = "events/2025/tdv"
-  weight = 30
+name = "TDV 2022"
+parent = "Events"
+pageRef = "events/2022/tdv"
+weight = 32
 
 [[main]]
-  name = "TDV 2022"
-  parent = "Events"
-  pageRef = "events/2022/tdv"
-  weight = 32
+name = "Travel Information"
+parent = "Events"
+pageRef = "events/travel_info"
+weight = 20
 
 [[main]]
-  name = "Travel Information"
-  parent = "Events"
-  pageRef = "events/travel_info"
-  weight = 20
+name = "Points of Interest"
+parent = "Events"
+pageRef = "events/poi_info"
+weight = 20
 
 [[main]]
-  name = "Points of Interest"
-  parent = "Events"
-  pageRef = "events/poi_info"
-  weight = 20
-
+name = "The Tanglenomicon"
+parent = "Research"
+pageRef = "projects/tanglenomicon"
 
 [[main]]
-  name = "The Tanglenomicon"
-  parent = "Research"
-  pageRef = "projects/tanglenomicon"
+name = "TDA"
+parent = "Research"
+pageRef = "interests/tda"
 
 [[main]]
-  name = "TDA"
-  parent = "Research"
-  pageRef = "interests/tda"
-
-[[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/Uiowa-applied-topology"
-  weight = 400
+identifier = "github"
+pre = "github"
+url = "https://github.com/Uiowa-applied-topology"
+weight = 400
