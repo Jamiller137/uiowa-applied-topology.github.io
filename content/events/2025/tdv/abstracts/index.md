@@ -1,6 +1,9 @@
 +++
 title="Abstracts"
+showTableOfContents= false
 +++
+
+{{< mathjax >}}
 
 ## Introduction to TDA mapper
 

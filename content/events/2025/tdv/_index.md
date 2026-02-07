@@ -4,7 +4,7 @@ title = "Topological Data Visualization Workshop"
 
 {{< katex >}}
 
-## Date: May 16 - 20, 2022
+## Date: June 9 - 13, 2025
 
 ### Organizers:
 
