@@ -31,11 +31,6 @@ jobs:
                   nix develop --command \
                       just check
 
-            - name: Check Tailwind
-              run: |
-                  nix develop --command \
-                      just check-tailwind
-
             - name: Build Docs
               run: |
                   nix develop --command \

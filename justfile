@@ -45,7 +45,7 @@ serve:
 ##################################################################################################
 
 # Run all checks
-check: check-prettier check-tombi
+check: check-prettier check-tombi check-tailwind
     @echo "🚀 Checked the files"
     exit 0
 
