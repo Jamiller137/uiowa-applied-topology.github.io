@@ -1,20 +1,21 @@
 name: Dr. Joe Starr
-image: 'https://github.com/Joecstarr/joe-starr/blob/main/assets/avatar.jpg?raw=true'
+image: "https://github.com/Joecstarr/joe-starr/blob/main/assets/avatar.jpg?raw=true"
 fullbio: |-
-  I specialize in computational knot theory, specifically tabulation of knot-like objects. My recent 
-  research focuses on understanding and classifying tangles, which contributes to the broader 
-  field of knot theory.
+    I specialize in computational knot theory, specifically tabulation of knot-like objects. My recent 
+    research focuses on understanding and classifying tangles, which contributes to the broader 
+    field of knot theory.
 
-  In addition to my academic pursuits, I have substantial industry experience in
-  software engineering and project management. This experience has equipped me
-  with a practical understanding of technology and its applications, which
-  complements my theoretical research.
+    In addition to my academic pursuits, I have substantial industry experience in
+    software engineering and project management. This experience has equipped me
+    with a practical understanding of technology and its applications, which
+    complements my theoretical research.
 
-  Beyond my mathematical research, I am passionate about education, particularly
-  in training undergraduate researchers.
+    Beyond my mathematical research, I am passionate about education, particularly
+    in training undergraduate researchers.
 bio: >-
-  I specialize in computational knot theory. I'm also a professional embedded software engineer.  
+    I specialize in computational knot theory. I'm also a professional embedded
+    software engineer.
 social:
-  - link: 'https://joe-starr.com'
-  - linkedin: 'https://www.linkedin.com/in/joseph-c-starr/'
-  - github: 'https://github.com/Joecstarr/'
+    - link: "https://joe-starr.com"
+    - linkedin: "https://www.linkedin.com/in/joseph-c-starr/"
+    - github: "https://github.com/Joecstarr/"

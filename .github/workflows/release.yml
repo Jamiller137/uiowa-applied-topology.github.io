@@ -1,0 +1,45 @@
+name: Create release
+
+on:
+    push:
+        tags:
+            - "****.**.**"
+permissions:
+    pages: write
+    id-token: write
+    contents: write
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  submodules: recursive
+                  fetch-depth: 0
+
+            - name: Check Nixpkgs inputs
+              uses: DeterminateSystems/flake-checker-action@main
+              with:
+                  fail-mode: true
+
+            - name: Install Nix
+              uses: DeterminateSystems/nix-installer-action@main
+
+            - name: Check
+              run: |
+                  nix develop --command \
+                      just check
+
+            - name: Build Docs
+              run: |
+                  nix develop --command \
+                        just build
+
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: ./.site
+
+            - name: Deploy to GitHub Pages
+              uses: actions/deploy-pages@v4
