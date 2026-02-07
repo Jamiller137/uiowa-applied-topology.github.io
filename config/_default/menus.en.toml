@@ -56,7 +56,7 @@ weight = 20
 [[main]]
 name = "The Tanglenomicon"
 parent = "Research"
-pageRef = "projects/tanglenomicon"
+pageRef = "interests/tanglenomicon"
 
 [[main]]
 name = "TDA"
